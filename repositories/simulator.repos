@@ -1,15 +1,11 @@
 repositories:
-  simulator/scenario_simulator:
-    type: git
-    url: https://github.com/tier4/scenario_simulator_v2.git
-    version: 22.0.0
   simulator/perception_eval:
     type: git
     url: https://github.com/tier4/autoware_perception_evaluation.git
     version: main
-  simulator/driving_log_replayer:
+  simulator/driving_log_replayer_v2:
     type: git
-    url: https://github.com/tier4/driving_log_replayer.git
+    url: https://github.com/tier4/driving_log_replayer_v2.git
     version: main
   simulator/vendor/ros2_numpy:
     type: git
@@ -19,8 +15,11 @@ repositories:
     type: git
     url: https://github.com/tier4/ros2bag_extensions.git
     version: main
-  simulator/vendor/operational-design-domains:
+  simulator/tool/autoware_tools:
     type: git
-    url: https://gitlab.com/autowarefoundation/operational-design-domains
-    #version: 42321f9a04fcaef9caf3694530e1c63d3e27c47a
-    version: master 
+    url: https://github.com/autowarefoundation/autoware_tools.git
+    version: 0.6.0
+  simulator/scenario_simulator:
+    type: git
+    url: https://github.com/tier4/scenario_simulator_v2.git
+    version: 22.0.0
